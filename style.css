@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #8e44ad; /* Um tom de roxo mais escuro como cor de fundo */
+    color: #fff; /* Texto em branco para contrastar */
+}
+
+#map {
+    margin: 0 auto;
+    border: 3px solid #d35400; /* Um tom de laranja para contrastar com o roxo */
+    border-radius: 11px;
+    width: 80%;
+    height: 40vh;
+}
+
+#video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Sobreposição semi-transparente */
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Estilizando o controle de rota do Leaflet com tons de roxo */
+.leaflet-routing-container {
+    background-color: #9b59b6; /* Um tom mais claro de roxo para o painel de rota */
+    color: #fff; /* Texto em branco para contrastar */
+}
+
+.leaflet-routing-container a {
+    color: #3498db; /* Um tom de azul para links dentro do painel de rota */
+}
+
+.leaflet-routing-container input {
+    background-color: #fff; /* Fundo branco para inputs no painel de rota */
+    color: #333; /* Texto escuro para melhor legibilidade */
+}
+
+/* Exemplo de estilização para links na página */
+a {
+    color: #e74c3c; /* Um tom de vermelho para links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse sobre links */
+}
